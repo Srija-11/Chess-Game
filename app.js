@@ -12,6 +12,7 @@ let players = {};
 let currentPlayer = 'W';
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
+const port = process.env.PORT || 8080;
 
 app.get('/', (req, res) => {
     res.render('index', {title : 'Chess Game'});
@@ -58,4 +59,6 @@ io.on('connection', (uniquesocket) => {
             }
         });
     });
-server.listen(2000);
+server.listen(port, () => {
+  `Server started on port ${port}`;
+});
