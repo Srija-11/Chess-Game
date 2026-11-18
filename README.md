@@ -2,7 +2,7 @@
 
 A real-time, drag-and-drop multiplayer chess game built using **Node.js**, **Socket.IO**, and **Chess.js**. Players are assigned roles (White, Black, or Spectator) and can compete live with automatic board updates and turn validation.
 ## 🚀 Live demo
-https://chess-game-oerb.vercel.app/
+[https://chess-game-oerb.vercel.app/](https://chess-game-oerb.vercel.app/)
 
 ## 🚀 Features
 
